@@ -54,8 +54,8 @@ before_install:
 install:
 
 before_script:
- raco pkg install --deps search-auto sicp
- raco pkg install --deps search-auto rackunit
+ - raco pkg install --deps search-auto sicp
+ - raco pkg install --deps search-auto rackunit
 
 # Here supply steps such as raco make, raco test, etc.
 #
