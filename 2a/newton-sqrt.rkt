@@ -1,30 +1,32 @@
+#lang sicp
+
 ;; Newton Square-Root method
 ;; https://en.wikipedia.org/wiki/Newton's_method#Square_root_of_a_number
 
-(DEFINE (FIXED-POINT F START)
-        (DEFINE (ITER OLD NEW)
-                (IF (CLOSE-ENOUGH? OLD NEW)
+(define (FIXED-POINT F START)
+        (define (ITER OLD NEW)
+                (if (CLOSE-ENOUGH? OLD NEW)
                     NEW
                     (ITER NEW (F NEW))))
         (ITER START (F START)))
 
-(DEFINE (SQRT-NEWTON x)
-        (NEWTON (LAMBDA (y) (- X (* Y Y)))
+(define (SQRT-NEWTON x)
+        (NEWTON (lambda (y) (- x (* y y)))
                 1))
 
-(DEFINE (NEWTON F GUESS)
-        (DEFINE df (DERIV F))
+(define (NEWTON f guess)
+        (define df (DERIV f))
         (FIXED-POINT
-          (LAMBDA (x) (- x (/ (f x)(df x))))
+          (lambda (x) (- x (/ (f x)(df x))))
           guess))
 
-(DEFINE DERIV
-        (LAMBDA (f)
-                (LAMBDA (x)
+(define DERIV
+        (lambda (f)
+                (lambda (x)
                         (/ (- (f (+ x dx))
                               (f x))
                             dx))))
 
-(DEFINE DX 0.00000001)
-(DEFINE (CLOSE-ENOUGH? OLD NEW)
-        (< (ABS (- OLD NEW)) 0.00000001))
+(define dx 0.00000001)
+(define (CLOSE-ENOUGH? OLD NEW)
+        (< (abs (- OLD NEW)) 0.00000001))
