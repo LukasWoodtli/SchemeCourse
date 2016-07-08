@@ -1,39 +1,41 @@
-(DEFINE (AVERAGE X Y)
+#lang sicp
+
+(define (AVERAGE X Y)
         (/
           (+ X Y)
           2))
 
-(DEFINE (MK-VECTOR X Y)
-        (CONS X Y))
+(define (MK-VECTOR X Y)
+        (cons X Y))
 
-(DEFINE (X-COR PT)
-        (CAR PT))
+(define (X-COR PT)
+        (car PT))
 
-(DEFINE (Y-COR PT)
-        (CDR PT))
-
-
-(DEFINE (MAKE-SEGMENT P Q)
-        (CONS P Q))
-
-(DEFINE (SEG-START S)
-        (CAR S))
-
-(DEFINE (SEG-END S)
-        (CDR S))
+(define (Y-COR PT)
+        (cdr PT))
 
 
-(DEFINE (MIDPOINT S)
-        (LET ((a (SEG-START S))
+(define (MAKE-SEGMENT P Q)
+        (cons P Q))
+
+(define (SEG-START S)
+        (car S))
+
+(define (SEG-END S)
+        (cdr S))
+
+
+(define (MIDPOINT S)
+        (let ((a (SEG-START S))
               (b (SEG-END S)))
              (MK-VECTOR
               (AVERAGE (X-COR a) (X-COR b))
               (AVERAGE (Y-COR a) (Y-COR b)))))
 
 
-(DEFINE A (MK-VECTOR 2 4))
-(DEFINE B (MK-VECTOR 4 6))
+(define A (MK-VECTOR 2 4))
+(define B (MK-VECTOR 4 6))
 
-(DEFINE S (MAKE-SEGMENT A B))
+(define S (MAKE-SEGMENT A B))
 
 (MIDPOINT S)

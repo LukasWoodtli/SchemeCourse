@@ -1,3 +1,4 @@
+#lang sicp
 ;; CDR-ing down a list
 
 (define (scale-list scalar lst)
