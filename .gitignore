@@ -12,3 +12,6 @@
 # ignore the (unziped) book and links to it
 book/
 *.html
+
+# ignore compiled racket files
+*compiled/
