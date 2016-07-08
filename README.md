@@ -20,7 +20,7 @@ Travis build is taken from: https://github.com/greghendershott/travis-racket
 | 1.1      | &#10003; |
 | 1.2      | &#10003; |
 | 1.3      | &#10003; |
-| 1.4      |          |
+| 1.4      | &#10003; |
 | 1.5      |          |
 | 1.6      | &#10003; |
 | 1.7      |          |
