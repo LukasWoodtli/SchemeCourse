@@ -10,8 +10,12 @@ https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-4.html#%_toc_start
 
 Travis build is taken from: https://github.com/greghendershott/travis-racket
 
+## Solutions for the Exercises
+http://community.schemewiki.org/?SICP-Solutions
 
 ## Implemented exercises
+
+Overview: https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-37.html#%_chap_Temp_850
 
 ### Chapter 1
 
@@ -21,7 +25,7 @@ Travis build is taken from: https://github.com/greghendershott/travis-racket
 | 1.2      | &#10003; |
 | 1.3      | &#10003; |
 | 1.4      | &#10003; |
-| 1.5      |          |
+| 1.5      | &#10003; |
 | 1.6      | &#10003; |
 | 1.7      |          |
 | 1.8      |          |
