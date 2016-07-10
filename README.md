@@ -28,7 +28,7 @@ Overview: https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-37.html
 | 1.5      | &#10003; |
 | 1.6      | &#10003; |
 | 1.7      |(&#10003;)|
-| 1.8      |          |
+| 1.8      | &#10003; |
 | 1.9      |          |
 | 1.10     |          |
 | 1.11     |          |
