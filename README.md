@@ -15,7 +15,7 @@ http://community.schemewiki.org/?SICP-Solutions
 
 ## Implemented exercises
 
-Overview: https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-37.html#%_chap_Temp_850
+Overview: https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-37.html
 
 ### Chapter 1
 
