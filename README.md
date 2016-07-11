@@ -1,5 +1,7 @@
 # Code for MIT Lisp (Scheme) Course
 
+[![Build Status](https://travis-ci.org/LukasWoodtli/SchemeCourse.svg?branch=master)](https://travis-ci.org/LukasWoodtli/SchemeCourse)
+
 ## Course Videos
 http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/1a-overview-and-introduction-to-lisp/
 
@@ -29,7 +31,7 @@ Overview: https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-37.html
 | 1.6      | &#10003; |
 | 1.7      |(&#10003;)|
 | 1.8      | &#10003; |
-| 1.9      |          |
+| 1.9      | &#10003; |
 | 1.10     |          |
 | 1.11     |          |
 | 1.12     |          |
