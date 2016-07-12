@@ -8,6 +8,7 @@
 
 *.rkt~
 
+#*#
 
 # ignore the (unziped) book and links to it
 book/
