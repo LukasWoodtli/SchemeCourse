@@ -23,5 +23,5 @@
 
 
 
-(check-equal? (add-a 2 3) 5)
-(check-equal? (add-b 2 3) 5)
+(check-equal? (count-change 100) 292)
+
