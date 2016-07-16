@@ -10,8 +10,8 @@
 
 (define (fast-expt b n)
   (cond ((= n 0) 1)
-        ((even? n) (square (fast-expt (/ n 2))))
-        (else (* b (fast-expt n (- n 1))))))
+        ((even? n) (square (fast-expt b (/ n 2))))
+        (else (* b (fast-expt b (- n 1))))))
 
 
 (check-equal? (fast-expt 1 0) 1)
@@ -21,4 +21,4 @@
 (check-equal? (fast-expt 3 2) 9)
 (check-equal? (fast-expt 2 3) 8)
 (check-equal? (fast-expt 5 2) 25)
-(check-equal? (fast-expt 11 11) 121)
+(check-equal? (fast-expt 11 11) 285311670611)
