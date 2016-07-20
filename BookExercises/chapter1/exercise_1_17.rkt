@@ -22,12 +22,12 @@
 (define (double a)
   (+ a a))
 
-(define (half b)
+(define (halve b)
   (/ b 2))
 
 (define (fast-mult a b)
   (cond ((= b 0) 0)
-        ((even? b) (double (fast-mult a (half b))))
+        ((even? b) (double (fast-mult a (halve b))))
         (else (+ a (fast-mult a (dec b))))))
 
 (check-equal? (fast-mult 2 3) 6)
