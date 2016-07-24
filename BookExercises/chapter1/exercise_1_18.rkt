@@ -17,7 +17,7 @@
 (define (mult-iter a b accu)
   (cond ((= b 0) accu)
         ((even? b) (mult-iter (double a) (halve b) accu))
-        (else (+ a (fast-mult a (dec b) accu)))))
+        (else (+ a (mult-iter a (dec b) accu)))))
 
 (check-equal? (fast-mult-iter 2 3) 6)
 (check-equal? (fast-mult-iter 2 4) 8)
