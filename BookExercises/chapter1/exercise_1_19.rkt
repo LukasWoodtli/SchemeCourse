@@ -2,6 +2,8 @@
 
 (#%require rackunit)
 
+;; http://community.schemewiki.org/?sicp-ex-1.19
+
 (define (even? n)
         (= (remainder n 2) 0))
 
