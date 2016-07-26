@@ -2,8 +2,6 @@
 
 [![Build Status](https://travis-ci.org/LukasWoodtli/SchemeCourse.svg?branch=master)](https://travis-ci.org/LukasWoodtli/SchemeCourse)
 
-[TOC]
-
 ## Build
 
 Travis build is taken from: https://github.com/greghendershott/travis-racket
@@ -76,7 +74,31 @@ Overview: https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-37.html
 | 1.46     |      |
 
 ## Course Videos
-http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/1a-overview-and-introduction-to-lisp/
+[Videos](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/1a-overview-and-introduction-to-lisp/)
+
+| Lecture | Topoic                                         | Done |
+|---------|------------------------------------------------|------|
+| 1A      |  Overview and Introduction to Lisp             |  ✓   |
+| 1B      |  Procedures and Processes; Substitution Model  |  ✓   |
+| 2A      |  Higher-order Procedures                       |  ✓   |
+| 2B      |  Compound Data                                 |  ✓   |
+| 3A      |  Henderson Escher Example                      |  ✓   |
+| 3B      |  Symbolic Differentiation; Quotation           |      |
+| 4A      |  Pattern Matching and Rule-based Substitution  |      |
+| 4B      |  Generic Operators                             |      |
+| 5A      |  Assignment, State, and Side-effects           |      |
+| 5B      |  Computational Objects                         |      |
+| 6A      |  Streams, Part 1                               |      |
+| 6B      |  Streams, Part 2                               |      |
+| 7A      |  Metacircular Evaluator, Part 1                |      |
+| 7B      |  Metacircular Evaluator, Part 2                |      |
+| 8A      |  Logic Programming, Part 1                     |      |
+| 8B      |  Logic Programming, Part 2                     |      |
+| 9A      |  Register Machines                             |      |
+| 9B      |  Explicit-control Evaluator                    |      |
+| 10A     |  Compilation                                   |      |
+| 10B     |  Storage Allocation and Garbage Collection     |      |
+
 
 
 
@@ -110,4 +132,3 @@ http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-str
 |   22    | lecture22webhan.pdf                        |      |
 |   23    | lecture23webhan.pdf                        |      |
 |   26    | lecture26webhan.pdf                        |      |
-
