@@ -69,3 +69,38 @@ Overview: https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-37.html
 | 1.44     |      |
 | 1.45     |      |
 | 1.46     |      |
+
+
+
+
+## Slides
+
+[Slides](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/readings/)
+
+| Lecture | Documents                                  | Done |
+|---------|--------------------------------------------|------|
+|    1    | lecture1webhand.pdf                        |   ✓  |
+|    2    | lecture2lispstor.pdf, lecture2webhand.pdf  |   ✓  |
+|    3    | lecture3webhand.pdf                        |      |
+|    4    | lecture4webhand.pdf                        |      |
+|    5    | lecture5webhand.pdf                        |      |
+|    6    | lecture6webhand.pdf                        |      |
+|    7    | lecture7webhand.pdf                        |      |
+|    8    | lecture8webhand.pdf                        |      |
+|    9    | lecture9webhand.pdf                        |      |
+|   10    | lecture10webhan.pdf                        |      |
+|   11    | lecture11webhan.pdf                        |      |
+|   12    | lecture12webhan.pdf                        |      |
+|   13    | lecture13webhan.pdf                        |      |
+|   14    | lecture15webha2.pdf                        |      |
+|   15    | lecture15webhan.pdf                        |      |
+|   16    | lecture16webhan.pdf                        |      |
+|   17    | lecture17_webhan.pdf                       |      |
+|   18    | lecture18_webhan.pdf                       |      |
+|   19    | lecture19interco.pdf, lecture19webha2.pdf, lecture19webhan.pdf|      |
+|   20    | lecture20evalco.pdf, lecture20webhan.pdf   |      |
+|   21    | lecture21lazyeva.pdf, lecture21webha2.pdf, lecture21webhan.pdf|      |
+|   22    | lecture22webhan.pdf                        |      |
+|   23    | lecture23webhan.pdf                        |      |
+|   26    | lecture26webhan.pdf                        |      |
+
