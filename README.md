@@ -2,24 +2,29 @@
 
 [![Build Status](https://travis-ci.org/LukasWoodtli/SchemeCourse.svg?branch=master)](https://travis-ci.org/LukasWoodtli/SchemeCourse)
 
-## Course Videos
-http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/1a-overview-and-introduction-to-lisp/
-
-## Book (SICP)
-https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-4.html#%_toc_start
+[TOC]
 
 ## Build
 
 Travis build is taken from: https://github.com/greghendershott/travis-racket
 
-## Solutions for the Exercises
+## Personal Notes
+
+http://lukaswoodtli.github.io/scheme_lisp.html
+
+## Book (SICP)
+https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-4.html#%_toc_start
+
+### Exercises from Book
+
+#### Solutions for the Exercises
 http://community.schemewiki.org/?SICP-Solutions
 
-## Implemented exercises
+#### Implemented exercises
 
 Overview: https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-37.html
 
-### Chapter 1
+##### Chapter 1
 
 | Exercise | Done |
 |----------|------|
@@ -70,6 +75,8 @@ Overview: https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-37.html
 | 1.45     |      |
 | 1.46     |      |
 
+## Course Videos
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/1a-overview-and-introduction-to-lisp/
 
 
 
