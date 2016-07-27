@@ -51,7 +51,7 @@ Overview: https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-37.html
 | 1.23     |      |
 | 1.24     |      |
 | 1.25     |      |
-| 1.26     |      |
+| 1.26     |   ✓  |
 | 1.27     |      |
 | 1.28     |      |
 | 1.29     |      |
