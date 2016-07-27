@@ -45,7 +45,7 @@ Overview: https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-37.html
 | 1.17     |   ✓  |
 | 1.18     |   ✓  |
 | 1.19     |  (✓) |
-| 1.20     |      |
+| 1.20     |  (✓) |
 | 1.21     |      |
 | 1.22     |      |
 | 1.23     |      |
@@ -76,7 +76,7 @@ Overview: https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-37.html
 ## Course Videos
 [Videos](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/1a-overview-and-introduction-to-lisp/)
 
-| Lecture | Topoic                                         | Done |
+| Lecture | Topic                                          | Done |
 |---------|------------------------------------------------|------|
 | 1A      |  Overview and Introduction to Lisp             |  ✓   |
 | 1B      |  Procedures and Processes; Substitution Model  |  ✓   |
@@ -121,8 +121,7 @@ Overview: https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-37.html
 |   11    | lecture11webhan.pdf                        |      |
 |   12    | lecture12webhan.pdf                        |      |
 |   13    | lecture13webhan.pdf                        |      |
-|   14    | lecture15webha2.pdf                        |      |
-|   15    | lecture15webhan.pdf                        |      |
+|   15    | lecture15webhan.pdf, lecture15webha2.pdf   |      |
 |   16    | lecture16webhan.pdf                        |      |
 |   17    | lecture17_webhan.pdf                       |      |
 |   18    | lecture18_webhan.pdf                       |      |
