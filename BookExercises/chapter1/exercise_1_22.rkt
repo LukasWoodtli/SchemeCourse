@@ -39,8 +39,10 @@
 
 
 (define (search-for-primes start)
-  (if (prime? start)
-      ((display "\nPrime: ") (display start))
-      (search-for-primes (+ 1 start) end)))
+  (cond ((prime? start) (display "\nPrime: ") (display start) (display "\n"))
+        (else (search-for-primes (+ 1 start)))))
 
-(time (search-for-primes 1000 1099))
+
+(time (search-for-primes 1000000))
+(time (search-for-primes 10000000000))
+(time (search-for-primes 1000000000000000))
