@@ -1,7 +1,5 @@
 #lang racket
 
-(#%require rackunit)
-
 (define (runtime) (current-milliseconds))
 
 (define (smallest-divisor n)
