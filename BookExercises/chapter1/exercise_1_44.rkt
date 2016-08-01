@@ -34,7 +34,7 @@
 
 ((smooth square) 3)
 
-(((n-fold-smooth 7) square) 3)
+; is this right? (((n-fold-smooth 7) square) 3)
 
 
 
