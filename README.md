@@ -68,7 +68,7 @@ Overview: https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-37.html
 | 1.40     |   ✓  |
 | 1.41     |   ✓  |
 | 1.42     |   ✓  |
-| 1.43     |      |
+| 1.43     |   ✓  |
 | 1.44     |      |
 | 1.45     |      |
 | 1.46     |      |
