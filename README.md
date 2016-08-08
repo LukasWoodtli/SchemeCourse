@@ -78,7 +78,7 @@ Overview: https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-37.html
 | Exercise | Done |
 |----------|------|
 | 2.1      |   ✓  |
-| 2.2      |      |
+| 2.2      |   ✓  |
 | 2.3      |      |
 | 2.4      |      |
 | 2.5      |      |
