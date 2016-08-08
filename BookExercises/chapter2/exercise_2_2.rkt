@@ -22,9 +22,9 @@
   
 (define (midpoint-segment segment)
   (make-point (/ (+ (x-point (start-segment segment))
-                    (y-point (start-segment segment)))
+                    (x-point (end-segment segment)))
                   2)
-              (/ (+ (x-point (end-segment segment))
+              (/ (+ (y-point (start-segment segment))
                     (y-point (end-segment segment)))
                   2)))
 
