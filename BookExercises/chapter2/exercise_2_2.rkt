@@ -1,5 +1,7 @@
 #lang sicp
 
+(#%provide (all-defined))
+
 (#%require rackunit)
 
 (define (make-segment start end)
