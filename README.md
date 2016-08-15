@@ -93,7 +93,7 @@ Overview: https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-37.html
 | 2.14     |   ✗  |
 | 2.15     |   ✗  |
 | 2.16     |   ✗  |
-| 2.17     |      |
+| 2.17     |   ✓  |
 | 2.18     |      |
 | 2.19     |      |
 | 2.20     |      |
