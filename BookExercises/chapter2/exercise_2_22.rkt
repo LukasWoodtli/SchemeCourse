@@ -13,6 +13,7 @@
                     answer))))
   (iter items nil))
 
+;; not working: add (cons) last element squared to beginning of new list
 ;; (check-equal? (square-list1 (list 1 2 3 4)) '(1 4 9 16))
 
 (define (square-list2 items)
@@ -24,4 +25,5 @@
                     (square (car things))))))
   (iter items nil))
 
-(check-equal? (square-list2 (list 1 2 3 4)) '(1 4 9 16))
+;; not working: creating list of list of list...
+;; (check-equal? (square-list2 (list 1 2 3 4)) '(1 4 9 16))
