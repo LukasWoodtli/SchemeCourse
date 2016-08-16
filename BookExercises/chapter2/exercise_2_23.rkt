@@ -1,4 +1,4 @@
-#lang SICP
+#lang sicp
 
 
 (define (for-each fun items)
