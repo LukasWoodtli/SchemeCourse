@@ -1,4 +1,4 @@
-#lang SICP
+#lang sicp
 
 
 (#%require rackunit)
