@@ -2,12 +2,12 @@
 
 (#%require rackunit)
 
-(define (fringe list)
-  (define (iter old-lst new-list)
-    (if (pair? (car old-lst))
-        (iter (car old-lst) new-lst)
-        (append new-lst (list (car old-lst)))))
-  (iter list nil))
+(define (fringe lst)
+  (define (iter old-lst new-lst)
+    (cond ((null? old-lst) new-lst)
+          ((pair? (car old-lst)) (iter (cdr old-lst) (append new-lst (fringe (car old-lst)))))
+          (else (iter (cdr old-lst) (append new-lst (list (car old-lst)))))))
+  (iter lst nil))
   
   
 (check-equal? (fringe (list 1 4 9 16 25)) '(1 4 9 16 25))
