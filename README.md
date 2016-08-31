@@ -107,7 +107,7 @@ Overview: https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-37.html
 | 2.28     |   ✓  |
 | 2.29     |   ✓  |
 | 2.30     |   ✓  |
-| 2.31     |      |
+| 2.31     |   ✓  |
 | 2.32     |      |
 | 2.33     |      |
 | 2.34     |      |
