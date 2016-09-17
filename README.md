@@ -111,7 +111,7 @@ Overview: https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-37.html
 | 2.32     |  (✓) |
 | 2.33     |   ✓  |
 | 2.34     |   ✓  |
-| 2.35     |      |
+| 2.35     |   ✓  |
 | 2.36     |      |
 | 2.37     |      |
 | 2.38     |      |
