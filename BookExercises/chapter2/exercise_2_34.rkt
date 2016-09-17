@@ -2,9 +2,20 @@
 
 (#%require rackunit)
 
+
+;; accumulation
+(define (accumulate op initial sequence)
+  (if (null? sequence)
+      initial
+      (op (car sequence)
+          (accumulate op initial (cdr sequence)))))
+
+
 (define (horner-eval x coefficient-sequence)
   (accumulate (lambda (this-coeff higher-terms) 
-                      (+ this-coeff (* higher-terms)) )
+                      (+ this-coeff (* x higher-terms)) )
               0 coefficient-sequence ))
               
-(check-equal? (horner-eval 2 (list 1 3 0 5 0 1)) 77)
+(check-equal? (horner-eval 2 (list 1 3 0 5 0 1)) 79)
+(check-equal? (horner-eval 3 (list -7 3 4)) 38)
+
