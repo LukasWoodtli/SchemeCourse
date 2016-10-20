@@ -79,6 +79,22 @@
          (sub-branch-balanced? (left-branch mobile))
          (sub-branch-balanced? (right-branch mobile)))))
 
+; Alternative implementation
+;(define (balanced? mobile)
+;  (define (torque branch)
+;    (* (branch-length branch)
+;       (let ((struct (branch-structure branch)))
+;         (if (pair? struct)
+;             (total-weight struct)
+;             struct))))
+;  (if (pair? mobile)
+;      (and (= (torque (left-branch mobile))
+;              (torque (right-branch mobile)))
+;           (balanced? (branch-structure (left-branch mobile)))
+;           (balanced? (branch-structure (right-branch mobile))))
+;      #t))
+
+
 (check-equal? (balanced? (make-mobile (make-branch 2 3) (make-branch 2 3))) #t)
 
 (check-equal? (balanced? (make-mobile (make-branch 3 5) (make-branch 5 3))) #t)
