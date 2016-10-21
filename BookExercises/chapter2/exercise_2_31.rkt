@@ -12,6 +12,20 @@
                (else (f sub-tree))))
          tree))
 
+ 
+;; alternative implementation
+;(define (tree-map proc t)
+;  (map (lambda (x)
+;         (if (pair? x)
+;             (square-tree x)
+;             (proc x))) t))
+
+
+; without map
+;(define (tree-map proc t)
+;  (cond ((null? t) '())
+;        ((pair? t) (cons (square-tree (car t)) (square-tree (cdr t))))
+;        (else (proc t))))
 
 (define (square-tree tree) (tree-map square tree))
 
