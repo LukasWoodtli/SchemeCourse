@@ -18,8 +18,7 @@
 
 (define (square-tree-with-map tree)
   (map (lambda (sub-tree)
-         (cond ((null? sub-tree) nil)
-               ((pair? sub-tree) (square-tree-with-map sub-tree))
+         (cond ((pair? sub-tree) (square-tree-with-map sub-tree))
                (else (* sub-tree sub-tree))))
        tree))
 
