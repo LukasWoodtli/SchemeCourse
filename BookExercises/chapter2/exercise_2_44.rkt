@@ -32,7 +32,7 @@
 
 
 ;; tests
-(paint (right-split einstein 4))
-(paint (up-split einstein 4))
-(paint (flipped-pairs einstein))
-(paint (corner-split einstein 4))
+;(paint (right-split einstein 4))
+;(paint (up-split einstein 4))
+;(paint (flipped-pairs einstein))
+;(paint (corner-split einstein 4))
