@@ -120,7 +120,7 @@ Overview: https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-37.html
 | 2.41     |   ✗  |
 | 2.42     |   ✗  |
 | 2.43     |   ✗  |
-| 2.44     |      |
+| 2.44     |   ✓  |
 | 2.45     |      |
 | 2.46     |      |
 | 2.47     |      |
