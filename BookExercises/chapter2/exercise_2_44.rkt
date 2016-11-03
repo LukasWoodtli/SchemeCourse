@@ -1,6 +1,6 @@
-#lang sicp
-
-(#%require sicp-pict)
+;#lang sicp
+;
+;(#%require sicp-pict)
 
 ;
 ;(define (right-split painter n)
