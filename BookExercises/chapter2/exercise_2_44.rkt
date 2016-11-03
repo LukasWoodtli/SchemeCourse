@@ -1,4 +1,5 @@
-;#lang sicp
+#lang sicp
+
 ;
 ;(#%require sicp-pict)
 
