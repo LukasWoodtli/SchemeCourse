@@ -1,4 +1,5 @@
 #lang sicp
+; commented: it's not working on travis-ci
 
 ;
 ;(#%require sicp-pict)
