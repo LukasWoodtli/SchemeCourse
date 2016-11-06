@@ -124,8 +124,8 @@ Overview: https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-37.html
 | 2.45     |   ✓  |
 | 2.46     |   ✓  |
 | 2.47     |   ✓  |
-| 2.48     |      |
-| 2.49     |      |
+| 2.48     |   ✓  |
+| 2.49     |   ✓  |
 | 2.50     |      |
 | 2.51     |      |
 | 2.52     |      |
