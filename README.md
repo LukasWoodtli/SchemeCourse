@@ -129,9 +129,9 @@ Overview: https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-37.html
 | 2.50     |   ✗  |
 | 2.51     |   ✗  |
 | 2.52     |   ✗  |
-| 2.53     |      |
-| 2.54     |      |
-| 2.55     |      |
+| 2.53     |   ✓  |
+| 2.54     |   ✓  |
+| 2.55     |  (✓) |
 | 2.56     |      |
 | 2.57     |      |
 | 2.58     |      |
@@ -215,7 +215,7 @@ Overview: https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-37.html
 |---------|--------------------------------------------|------|
 |    1    | lecture1webhand.pdf                        |   ✓  |
 |    2    | lecture2lispstor.pdf, lecture2webhand.pdf  |   ✓  |
-|    3    | lecture3webhand.pdf                        |      |
+|    3    | lecture3webhand.pdf                        |   ✓  |
 |    4    | lecture4webhand.pdf                        |      |
 |    5    | lecture5webhand.pdf                        |      |
 |    6    | lecture6webhand.pdf                        |      |
