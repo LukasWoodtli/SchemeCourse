@@ -137,8 +137,8 @@ Overview: https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-37.html
 | 2.58     |  (✓)  |
 | 2.59     |   ✓   |
 | 2.60     |   ✓   |
-| 2.61     |      |
-| 2.62     |      |
+| 2.61     |  (✓)  |
+| 2.62     |  (✓)  |
 | 2.63     |      |
 | 2.64     |      |
 | 2.65     |      |
