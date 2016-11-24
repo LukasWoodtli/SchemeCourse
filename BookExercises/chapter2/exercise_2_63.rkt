@@ -41,5 +41,5 @@
 (check-equal? (tree->list-2 fig2-16-3) '(1 3 5 7 9 11))
 
 ; b)
-tree->list-1: O(n * log n)
-tree->list-2: O(n)
+; tree->list-1: O(n * log n)
+; tree->list-2: O(n)
