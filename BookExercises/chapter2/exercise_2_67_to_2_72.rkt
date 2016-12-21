@@ -1,5 +1,7 @@
 #lang sicp
 
+(#%require racket) ; for (error msg v ...)
+(#%require rackunit)
 
 (define (make-leaf symbol weight)
   (list 'leaf symbol weight))
@@ -69,4 +71,30 @@
 
 (define sample-message '(0 1 1 0 0 1 0 1 0 1 1 1 0))
 
-(decode sample-message sample-tree)
+
+(define sample-result-expected '(A D A B B C A))
+(check-equal? (decode sample-message sample-tree) sample-result-expected)
+
+
+
+; Exercise 2.68
+(define (encode message tree)
+  (if (null? message)
+      '()
+      (append (encode-symbol (car message) tree)
+              (encode (cdr message) tree))))
+
+(define (encode-symbol symbol tree)
+  (cond ((leaf? tree) (if (eq? (symbol-leaf tree) symbol)
+                          '()
+                          (error "Wrong symbol in leaf" (symbol-leaf tree) symbol)))
+        ((memq symbol (symbols (left-branch tree)))
+         (cons 0 (encode-symbol symbol (left-branch tree))))
+        ((memq symbol (symbols (right-branch tree)))
+         (cons 1 (encode-symbol symbol (right-branch tree))))
+        (else (error "Bad symbol" symbol)
+              )))
+
+(check-equal? (encode (decode sample-message sample-tree) sample-tree) sample-message)
+
+(check-equal? (decode (encode sample-result-expected sample-tree) sample-tree) sample-result-expected)
