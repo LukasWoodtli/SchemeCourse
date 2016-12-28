@@ -12,7 +12,8 @@ elif [[ "$RACKET_VERSION" = "RELEASE" ]]; then
 elif [[ "$RACKET_VERSION" = 5.9* ]]; then
     URL="http://download.racket-lang.org/installers/${RACKET_VERSION}/racket-${RACKET_VERSION}-x86_64-linux-ubuntu-quantal.sh"
 elif [[ "$RACKET_VERSION" = 6.[0-4]* ]]; then
-    URL="http://download.racket-lang.org/installers/${RACKET_VERSION}/racket-${RACKET_VERSION}-x86_64-linux-ubuntu-precise.sh"
+#    URL="http://download.racket-lang.org/installers/${RACKET_VERSION}/racket-${RACKET_VERSION}-x86_64-linux-ubuntu-precise.sh"
+    URL="https://www.cs.utah.edu/plt/installers/${RACKET_VERSION}/racket-${RACKET_VERSION}-x86_64-linux-ubuntu-precise.sh
 elif [[ "$RACKET_VERSION" = 6.* ]]; then
     URL="http://download.racket-lang.org/installers/${RACKET_VERSION}/racket-${RACKET_VERSION}-x86_64-linux.sh"
 else
