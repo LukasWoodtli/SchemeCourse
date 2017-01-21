@@ -3,17 +3,11 @@ language: c
 
 env:
   global:
-    # Supply a global RACKET_DIR environment variable. This is where
-    # Racket will be installed. A good idea is to use ~/racket because
-    # that doesn't require sudo to install and is therefore compatible
-    # with Travis CI's newer container infrastructure.
     - RACKET_DIR=~/racket
 
 before_install:
-  - curl -L -o "racket-6.7-x86_64-linux.sh" "https://mirror.racket-lang.org/installers/6.7/racket-6.7-x86_64-linux.sh"
-  - chmod u+x "racket-6.7-x86_64-linux.sh"
+  - bash ./.install-racket.sh
   - export PATH="${RACKET_DIR}/bin:${PATH}" #install-racket.sh can't set for us
-  - "./racket-6.7-x86_64-linux.sh
 
 install:
 
