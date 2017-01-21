@@ -32,7 +32,7 @@ env:
     # - RACKET_VERSION=HEAD
     # - RACKET_VERSION=SCOPE_SNAPSHOT
     # - RACKET_VERSION=RELEASE
-      - RACKET_VERSION=6.4
+    #  - RACKET_VERSION=6.4
     
 # You may want to test against certain versions of Racket, without
 # having them count against the overall success/failure.

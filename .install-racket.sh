@@ -1,4 +1,4 @@
-racket-${RACKET_VERSION}.shracket-${RACKET_VERSION}.sh# IMPORTANT: Your .travis.yml must pipe this to bash (not to sh)!
+# IMPORTANT: Your .travis.yml must pipe this to bash (not to sh)!
 # In the Travis CI environment a #!/bin/bash shebang here won't help.
 
 set -e
