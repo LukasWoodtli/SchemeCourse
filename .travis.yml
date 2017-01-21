@@ -10,8 +10,10 @@ env:
     - RACKET_DIR=~/racket
 
 before_install:
-  - bash ./.install-racket.sh
+  - curl -L -o "racket-6.7-x86_64-linux.sh" "https://mirror.racket-lang.org/installers/6.7/racket-6.7-x86_64-linux.sh"
+  - chmod u+x "racket-6.7-x86_64-linux.sh"
   - export PATH="${RACKET_DIR}/bin:${PATH}" #install-racket.sh can't set for us
+  - "./racket-6.7-x86_64-linux.sh
 
 install:
 
