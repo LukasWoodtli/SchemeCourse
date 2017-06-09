@@ -1,4 +1,4 @@
-# Code for MIT Lisp (Scheme) Course
+# Code for MIT Scheme Course (SICP)
 
 [![Build Status](https://travis-ci.org/LukasWoodtli/SchemeCourse.svg?branch=master)](https://travis-ci.org/LukasWoodtli/SchemeCourse)
 
