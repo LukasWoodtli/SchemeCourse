@@ -108,7 +108,7 @@ Overview: https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-37.html
 | 2A      |  Higher-order Procedures                       |  ✓   |
 | 2B      |  Compound Data                                 |  ✓   |
 | 3A      |  Henderson Escher Example                      |  ✓   |
-| 3B      |  Symbolic Differentiation; Quotation           |      |
+| 3B      |  Symbolic Differentiation; Quotation           |  ✓   |
 | 4A      |  Pattern Matching and Rule-based Substitution  |      |
 | 4B      |  Generic Operators                             |      |
 | 5A      |  Assignment, State, and Side-effects           |      |
