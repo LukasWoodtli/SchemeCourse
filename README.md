@@ -8,10 +8,11 @@ Travis build is taken from: https://github.com/greghendershott/travis-racket
 
 ## Personal Notes
 
-http://lukaswoodtli.github.io/scheme_lisp.html
+[lukaswoodtli.github.io](http://lukaswoodtli.github.io/tags.html#lisp-ref)
 
 ## Book (SICP)
-https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-4.html#%_toc_start
+
+https://mitpress.mit.edu/sites/default/files/sicp/index.html
 
 ### Exercises from Book
 
@@ -20,7 +21,6 @@ http://community.schemewiki.org/?SICP-Solutions
 
 #### Implemented exercises
 
-Overview: https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-37.html
 
 ##### Chapter 1
 
