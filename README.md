@@ -109,7 +109,7 @@ http://community.schemewiki.org/?SICP-Solutions
 | 2B      |  Compound Data                                 |  ✓   |
 | 3A      |  Henderson Escher Example                      |  ✓   |
 | 3B      |  Symbolic Differentiation; Quotation           |  ✓   |
-| 4A      |  Pattern Matching and Rule-based Substitution  |      |
+| 4A      |  Pattern Matching and Rule-based Substitution  |  ✓   |
 | 4B      |  Generic Operators                             |      |
 | 5A      |  Assignment, State, and Side-effects           |      |
 | 5B      |  Computational Objects                         |      |
