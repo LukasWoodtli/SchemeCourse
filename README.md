@@ -112,7 +112,7 @@ http://community.schemewiki.org/?SICP-Solutions
 | 4A      |  Pattern Matching and Rule-based Substitution  |  ✓   |
 | 4B      |  Generic Operators                             |  ✓   |
 | 5A      |  Assignment, State, and Side-effects           |  ✓   |
-| 5B      |  Computational Objects                         |      |
+| 5B      |  Computational Objects                         |  ✓   |
 | 6A      |  Streams, Part 1                               |      |
 | 6B      |  Streams, Part 2                               |      |
 | 7A      |  Metacircular Evaluator, Part 1                |      |
