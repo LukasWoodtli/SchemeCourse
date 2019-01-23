@@ -113,7 +113,7 @@ http://community.schemewiki.org/?SICP-Solutions
 | 4B      |  Generic Operators                             |  ✓   |
 | 5A      |  Assignment, State, and Side-effects           |  ✓   |
 | 5B      |  Computational Objects                         |  ✓   |
-| 6A      |  Streams, Part 1                               |      |
+| 6A      |  Streams, Part 1                               |  ✓   |
 | 6B      |  Streams, Part 2                               |      |
 | 7A      |  Metacircular Evaluator, Part 1                |      |
 | 7B      |  Metacircular Evaluator, Part 2                |      |
