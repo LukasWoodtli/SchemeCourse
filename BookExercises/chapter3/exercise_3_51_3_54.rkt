@@ -1,5 +1,8 @@
 #lang sicp
 
+(#%require rackunit)
+
+
 (define (stream-car stream)
   (car stream))
 (define (stream-cdr stream)
@@ -100,3 +103,24 @@
 
 ;; 3.53
 (define s (cons-stream 1 (add-streams s s)))
+
+
+;; 3.54
+(define (integers-starting-from n)
+  (cons-stream
+   n (integers-starting-from (+ n 1))))
+(define integers (integers-starting-from 1))
+
+(define (mul-stream s1 s2)
+  (stream-map * s1 s2))
+
+(define factorials
+  (cons-stream 1 (mul-stream
+                  factorials (stream-cdr integers))))
+
+;; test
+(check-equal? (stream-ref factorials 0) 1) ; 0th element: fac(1)
+(check-equal? (stream-ref factorials 1) 2) ; 1th element: fac(2)
+(check-equal? (stream-ref factorials 2) 6) ; 2nd element: fac(3)
+(check-equal? (stream-ref factorials 3) 24) ; 3rd element: fac(4)
+
