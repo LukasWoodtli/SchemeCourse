@@ -55,6 +55,15 @@
 (define (add-streams s1 s2)
   (stream-map + s1 s2))
 
+
+(define (integers)
+  (define (int i)
+    (cons-stream i (int (+ 1 i))))
+  (int 1))
+
+(define (partial-sums s)
+  (cons-stream (stream-car s) (add-streams (partial-sums s) (stream-cdr s))))
+
 ;; Display
 (define (display-stream s)
   (stream-for-each display-line s))
@@ -68,6 +77,18 @@
   (newline)
   x)
 
+;; Tests
+(check-equal? (stream-ref (integers) 0) 1)
+(check-equal? (stream-ref (integers) 1) 2)
+(check-equal? (stream-ref (integers) 2) 3)
+(check-equal? (stream-ref (integers) 3) 4)
+(check-equal? (stream-ref (integers) 4) 5)
+
+(check-equal? (stream-ref (partial-sums (integers)) 0) 1)
+(check-equal? (stream-ref (partial-sums (integers)) 1) 3)
+(check-equal? (stream-ref (partial-sums (integers)) 2) 6)
+(check-equal? (stream-ref (partial-sums (integers)) 3) 10)
+(check-equal? (stream-ref (partial-sums (integers)) 4) 15)
 
 
 ;; 3.64
@@ -80,3 +101,15 @@
 
 (check-equal? (stream-limit s 1) 6)
 (check-equal? (stream-limit s 4) 5)
+
+;; 3.65
+(define (ln2)
+  (define (ln2-internal i)
+    (let* ((temp-part (/ 1 i))
+           (part (* temp-part (expt -1 (+ i 1)))))
+      (cons-stream part (ln2-internal (+ i 1)))))
+  (partial-sums (ln2-internal 1)))
+
+(stream-ref (ln2) 0)
+(stream-ref (ln2) 1)
+(exact->inexact (stream-ref (ln2) 500))
