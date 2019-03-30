@@ -3,10 +3,17 @@
 (#%require rackunit)
 
 
+;; Needed so that cons-stream is handled as special form
+;; see https://wizardbook.wordpress.com/2010/12/20/exercise-3-50/
+(define-syntax cons-stream
+  (syntax-rules ()
+    ((_ A B) (cons A (delay B)))))
+
 (define (stream-car stream)
   (car stream))
 (define (stream-cdr stream)
   (force (cdr stream)))
+
 
 (define (stream-ref s n)
   (if (= n 0)
@@ -22,6 +29,8 @@
               (cons proc
                     (map stream-cdr
                          argstreams))))))
+
+
 
 (define (stream-for-each proc s)
   (if (stream-null? s)
