@@ -1,9 +1,12 @@
 
 set -e
 
-URL="https://mirror.racket-lang.org/installers/7.1/racket-7.1-x86_64-linux.sh"
+VERSION=7.2
 
-INSTALLER="./racket-7.1-x86_64-linux.sh"
+INSTALLER="./racket-${VERSION}-x86_64-linux.sh"
+
+URL="https://mirror.racket-lang.org/installers/${VERSION}/${INSTALLER}"
+
 
 echo "Downloading $URL to $INSTALLER:"
 curl -L -o $INSTALLER $URL
