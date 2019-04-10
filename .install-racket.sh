@@ -5,7 +5,7 @@ VERSION=7.2
 
 INSTALLER="./racket-${VERSION}-x86_64-linux.sh"
 
-URL="https://mirror.racket-lang.org/installers/${VERSION}/${INSTALLER}"
+URL="http://mirror.informatik.uni-tuebingen.de/mirror/racket/${VERSION}/${INSTALLER}"
 
 
 echo "Downloading $URL to $INSTALLER:"
