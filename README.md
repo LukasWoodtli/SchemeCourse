@@ -162,7 +162,7 @@ http://community.schemewiki.org/?SICP-Solutions
 |    1    | lecture1webhand.pdf                        |   ✓  |
 |    2    | lecture2lispstor.pdf, lecture2webhand.pdf  |   ✓  |
 |    3    | lecture3webhand.pdf                        |   ✓  |
-|    4    | lecture4webhand.pdf                        |      |
+|    4    | lecture4webhand.pdf                        |   ✓  |
 |    5    | lecture5webhand.pdf                        |      |
 |    6    | lecture6webhand.pdf                        |      |
 |    7    | lecture7webhand.pdf                        |      |
