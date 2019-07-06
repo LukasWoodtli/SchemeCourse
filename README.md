@@ -141,8 +141,8 @@ http://community.schemewiki.org/?SICP-Solutions
 | 5B      |  Computational Objects                         |  ✓   |
 | 6A      |  Streams, Part 1                               |  ✓   |
 | 6B      |  Streams, Part 2                               |  ✓   |
-| 7A      |  Metacircular Evaluator, Part 1                |      |
-| 7B      |  Metacircular Evaluator, Part 2                |      |
+| 7A      |  Metacircular Evaluator, Part 1                |  ✓   |
+| 7B      |  Metacircular Evaluator, Part 2                |  ✓   |
 | 8A      |  Logic Programming, Part 1                     |      |
 | 8B      |  Logic Programming, Part 2                     |      |
 | 9A      |  Register Machines                             |      |
@@ -163,20 +163,20 @@ http://community.schemewiki.org/?SICP-Solutions
 |    2    | lecture2lispstor.pdf, lecture2webhand.pdf  |   ✓  |
 |    3    | lecture3webhand.pdf                        |   ✓  |
 |    4    | lecture4webhand.pdf                        |   ✓  |
-|    5    | lecture5webhand.pdf                        |      |
-|    6    | lecture6webhand.pdf                        |      |
-|    7    | lecture7webhand.pdf                        |      |
-|    8    | lecture8webhand.pdf                        |      |
-|    9    | lecture9webhand.pdf                        |      |
-|   10    | lecture10webhan.pdf                        |      |
-|   11    | lecture11webhan.pdf                        |      |
-|   12    | lecture12webhan.pdf                        |      |
-|   13    | lecture13webhan.pdf                        |      |
-|   15    | lecture15webhan.pdf, lecture15webha2.pdf   |      |
-|   16    | lecture16webhan.pdf                        |      |
-|   17    | lecture17_webhan.pdf                       |      |
-|   18    | lecture18_webhan.pdf                       |      |
-|   19    | lecture19interco.pdf, lecture19webha2.pdf, lecture19webhan.pdf|      |
+|    5    | lecture5webhand.pdf                        |   ✓  |
+|    6    | lecture6webhand.pdf                        |   ✓  |
+|    7    | lecture7webhand.pdf                        |   ✓  |
+|    8    | lecture8webhand.pdf                        |   ✓  |
+|    9    | lecture9webhand.pdf                        |   ✓  |
+|   10    | lecture10webhan.pdf                        |   ✓  |
+|   11    | lecture11webhan.pdf                        |   ✓  |
+|   12    | lecture12webhan.pdf                        |   ✓  |
+|   13    | lecture13webhan.pdf                        |   ✓  |
+|   15    | lecture15webhan.pdf, lecture15webha2.pdf   |   ✓  |
+|   16    | lecture16webhan.pdf                        |   ✓  |
+|   17    | lecture17_webhan.pdf                       |   ✓  |
+|   18    | lecture18_webhan.pdf                       |   ✓  |
+|   19    | lecture19interco.pdf, lecture19webha2.pdf, lecture19webhan.pdf|   ✓  |
 |   20    | lecture20evalco.pdf, lecture20webhan.pdf   |      |
 |   21    | lecture21lazyeva.pdf, lecture21webha2.pdf, lecture21webhan.pdf|      |
 |   22    | lecture22webhan.pdf                        |      |
