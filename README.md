@@ -143,10 +143,10 @@ http://community.schemewiki.org/?SICP-Solutions
 | 6B      |  Streams, Part 2                               |  ✓   |
 | 7A      |  Metacircular Evaluator, Part 1                |  ✓   |
 | 7B      |  Metacircular Evaluator, Part 2                |  ✓   |
-| 8A      |  Logic Programming, Part 1                     |      |
-| 8B      |  Logic Programming, Part 2                     |      |
-| 9A      |  Register Machines                             |      |
-| 9B      |  Explicit-control Evaluator                    |      |
+| 8A      |  Logic Programming, Part 1                     |  ✓   |
+| 8B      |  Logic Programming, Part 2                     |  ✓   |
+| 9A      |  Register Machines                             |  ✓   |
+| 9B      |  Explicit-control Evaluator                    |  ✓   |
 | 10A     |  Compilation                                   |      |
 | 10B     |  Storage Allocation and Garbage Collection     |      |
 
